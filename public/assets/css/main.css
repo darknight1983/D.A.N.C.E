@@ -56,12 +56,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 .photographyImg-container {
+  width: 100%;
   display: flex;
-  height: auto;
+  justify-content: center;
 }
 
 .photographerImg {
-  width: 100%;
+  width: 50%
 }
 
 .photographer-bio {
@@ -2306,6 +2307,7 @@ button,
     width: 100%;
   }
 }
+
 .wrapper.alt {
   padding: 0;
 }
