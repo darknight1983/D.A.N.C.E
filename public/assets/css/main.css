@@ -79,6 +79,11 @@ blockquote:before, blockquote:after, q:before, q:after {
   width: 100%;
 }
 
+.testimonials {
+  font-style: italic;
+  font-size: 14px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
