@@ -55,15 +55,7 @@ blockquote:before, blockquote:after, q:before, q:after {
   font-size: 54px;
 }
 
-.photographyImg-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
-.photographerImg {
-  width: 50%
-}
 
 .photographer-bio {
   font-weight: bold;
@@ -3272,6 +3264,21 @@ body.is-mobile.landing .wrapper.style4 {
 }
 body.is-mobile.landing #footer {
   background-color: #1d242a;
+}
+
+
+.photographyImg-container {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+.photo-contain {
+  width: 50%;
+}
+
+.photographerImg {
+  width: 70% !important;
 }
 
 /*# sourceMappingURL=main.css.map */
